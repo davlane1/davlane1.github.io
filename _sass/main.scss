@@ -14,21 +14,21 @@
 
 h1 { font-family: 'Limelight', cursive; } // this is vanilla CSS referencing <h1> element
 
-.bg-img {
+/*.bg-img {
   background-image:
-     /* top, transparent black, faked with gradient */
+     // top, transparent black, faked with gradient 
     linear-gradient(
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.5)
     ),
-    //url("/tachina-lee.jpg");
+    url("/tachina-lee.jpg");
   background-blend-mode: darken;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #999;
-}
+}*/
 
 // Import the rest of Bulma
 @import "../node_modules/bulma/bulma";
